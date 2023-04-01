@@ -1,7 +1,7 @@
 name: Events Demo 1
 on: 
   pull_request:
-    types: [opened, edited]
+    types: [opened]
     branches: [master, 'dev-*', 'feat/**']
   workflow_dispatch:
   push:
